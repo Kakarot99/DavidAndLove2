@@ -116,6 +116,12 @@
     right: 90px !important;
   }
 }
+@media (max-width: 667px) and (min-width: 375px) {
+  .container .x {
+    right: 38px;
+    left: 65px !important;
+  }
+}
 @media (max-width: 768px) {
   .container .ins {
     padding-left: 100px;
@@ -141,12 +147,13 @@
   }
   .container .x {
     right: 38px;
+    left: 65px !important;
   }
   .container .L .flip-box {
-    margin-left: 70px;
+    margin-left: 65px;
   }
   .container .L img {
     width: 100%;
-    height: auto;
+    height: 250px;
   }
 }
